@@ -25,6 +25,7 @@ version: 2.1
   - `headers {Object}`：HTTP 请求头
   - `type {string}`：响应类型, `json`,`text` 或是 `jsonp` {在原生实现中其实与 json 相同)
   - `body {string}`：HTTP 请求体。
+  - 'timeout {int}': HTTP 请求超时时间、单位毫秒、如果不设置返回0 {此项必须设置，避免大多数请求失败}；
 
     **注意：**
 
